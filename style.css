@@ -1,0 +1,104 @@
+main{
+  background-color: white;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+header {
+  background-color: lightblue;
+  color: black;
+}
+
+footer {
+  background-color: darkgray;
+}
+
+nav {
+  background-color: darkgray;
+}
+
+section{
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: black;
+  
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: brown;
+
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: darkgreen;
+
+}
+
+h4 {
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: brown;
+
+}
+
+h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: gray;
+
+}
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: gray;
+
+}
+
+p {
+  font-family:  Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  color: darkolivegreen;
+}
+
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited { 
+  color: #22227a;
+}
+
+/* mouse over link */
+a:hover {
+  color: hsl(201, 100%, 50%);
+}
+
+
+.special{
+  color: darkgreen;
+  background-color: lightgrey;
+}
+.bigandbold{
+  color: black;
+  background-color: beige;
+}
+.main{
+  color: darkgreen;
+  background-color: white;
+}
+.thumbnail{
+  height: 175px;
+  width: 250px
+}
