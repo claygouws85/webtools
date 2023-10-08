@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben Howard in a Nutshell</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <style>
+    fieldset {
+      width: 65%;
+     
+      
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bigandbold">
+    <h1>The Greatest Website Ever Built</h1>
+  </header>
+  <nav class="special">
+    
+    <a href="index.html">Home</a> | 
+    <a href="faq.html">FAQ</a> | 
+    <a href="gallery.html">Gallery</a> | 
+    <a href="contact-us.html">Contact Us</a>
+  </nav>
+  <main class="main">
+
+    <section >
+      <br style=“line-height:100px;”>
+      <fieldset class="content">
+        <legend class="bigandbold">Contact Us Form</legend>
+      <p>
+        This is my first web form. It is used to contact Ben Howard
+      </p>
+     
+        <h3>Enter your details</h3>
+
+        <form id="myFirstForm" action="mailto:e3697195@student.dcccd.edu" method="post">
+          <p>
+            <label title="Enter your full name.">Name <input type="text" name="Name" placeholder="Name"></label>
+          </p>
+          <p>
+            <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
+          </p>
+          <p>
+            <label title="Select your program.">Program</label>
+            <select name="programID">
+              <option value="">&larr;&nbsp;Select Program&nbsp;&rarr;</option>
+              <option value="1">Web Development</option>
+              <option value="2">Programming</option>
+              <option value="3">PC Support</option>
+              <option value="4">Networking Security</option>
+              <option value="5">Cloud Computing</option>
+            </select>
+          </p>
+          <p>
+            <label title="Select to be contacted."><input type="checkbox" name="contact-me"> Contact Me</label>
+          </p>
+          <h3>Message</h3>
+          <p>
+            <label title="Select if you have a question.">Question <input type="radio" name="request"></label>
+            <br>
+            <label title="Select if you have a comment.">Comment <input type="radio" name="request"></label>
+          </p>
+          <p>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message"></textarea>
+          </p>
+          <input type="submit" name="submit" value="Submit Email"> <input type="reset" name="reset" value="Reset Form">
+        </form>
+        </fieldset>
+        <br style=“line-height:100px;”>
+    </section>
+    
+  </main>
+  <footer class="bigandbold">
+    <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a>  |
+    <a href="mailto:sherd@dcccd.edu"> Webmaster </a>
+  </footer>
+</body>
+
+</html>

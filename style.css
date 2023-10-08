@@ -1,11 +1,24 @@
 main{
   background-color: white;
   font-family: Verdana, Tahoma, sans-serif;
+  
 }
 header {
   background-color: lightblue;
   color: black;
 }
+
+table,
+td,
+th {
+  border: double;
+  border-spacing: 1px;
+  padding: 10px;
+  text-align: left;
+  color: darkolivegreen
+    }
+
+
 
 footer {
   background-color: darkgray;
@@ -15,7 +28,7 @@ nav {
   background-color: darkgray;
 }
 
-section{
+fieldset{
   background-color: whitesmoke;
 }
 
@@ -101,4 +114,14 @@ a:hover {
 .thumbnail{
   height: 175px;
   width: 250px
+}
+.content {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
