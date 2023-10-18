@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 20px
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 25px;
+  padding: 8px 0px;
+}
+
+article {
+  content: "";
+  clear: both;
+  display: table;
+  border: solid darkgreen;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 500px;
+  padding: 2%;
+  margin: 5vw auto;
+}
+
+figure {
+  float: left;
+  width: 35vw;
+  margin: 2vh 0;
+  
+}
+
+figcaption {
+  text-align: left;
+  clear: both;
+  color: #2E6C85;
+}
+
+article:nth-child(even)>figure {
+  float: right;
+}
+
+header {
+  padding: 25px;
+  
+}
+
+footer {
+  padding: 20px
+}
