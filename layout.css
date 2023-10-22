@@ -4,15 +4,13 @@
   box-sizing: border-box;
 }
 
-nav {
-  padding: 20px
-}
 
 main {
   width: 100%;
   max-width: 1200px;
-  margin: 25px;
-  padding: 8px 0px;
+  margin: auto;
+  padding 0 25px;
+  
 }
 
 article {
@@ -29,8 +27,8 @@ article {
 
 figure {
   float: left;
-  width: 35vw;
-  margin: 2vh 0;
+  width: 25vw;
+  margin: 0 2vw;
   
 }
 
@@ -45,10 +43,24 @@ article:nth-child(even)>figure {
 }
 
 header {
-  padding: 25px;
+  padding: 25px 50px;
   
 }
 
 footer {
   padding: 20px
+}
+
+.sticky_logo{
+  position: fixed;
+  top: 2%;
+  right: 2%;
+}
+
+ul{
+  padding-left: 2vw;
+}
+
+hero_image {
+  margin: auto;
 }
