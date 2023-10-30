@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="layout.css" />
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
     fieldset {
       width: 65%;
@@ -29,29 +30,30 @@
     <a href="faq.html">FAQ</a>
     <a class="active" href="contact-us.html">Contact</a>
     <a href="gallery.html">Gallery</a>
+    <a href="about us.html">About Us</a>
   </nav>
   <main class="main">
 
     <section >
       <br>
       <fieldset class="content">
-        <legend class="bigandbold">Contact Us Form</legend>
+        <legend ><h3>Contact Us Form</h3></legend>
       <p>
         This is my first web form. It is used to contact Ben Howard
       </p>
      
-        <h3>Enter your details</h3>
+        <b>Enter your details</b>
 
-        <form id="myFirstForm" action="mailto:e3697195@student.dcccd.edu" method="post">
+        <form class="w3-container" id="myFirstForm" action="mailto:e3697195@student.dcccd.edu" method="post">
           <p>
-            <label title="Enter your full name.">Name <input type="text" name="Name" placeholder="Name"></label>
+            <label title="Enter your full name.">Name <input class="w3-input w3-border w3-round" type="text" name="Name" placeholder="Name"></label>
           </p>
           <p>
-            <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
+            <label title="Enter your email address.">E-Mail <input class="w3-input w3-border w3-round" type="text" name="Email" placeholder="Email"></label>
           </p>
           <p>
             <label title="Select your program.">Program</label>
-            <select name="programID">
+            <select class="w3-input w3-border w3-round" name="programID">
               <option value="">&larr;&nbsp;Select Program&nbsp;&rarr;</option>
               <option value="1">Web Development</option>
               <option value="2">Programming</option>
@@ -61,7 +63,7 @@
             </select>
           </p>
           <p>
-            <label title="Select to be contacted."><input type="checkbox" name="contact-me"> Contact Me</label>
+            <label title="Select to be contacted."><input  type="checkbox" name="contact-me"> Contact Me</label>
           </p>
           <h3>Message</h3>
           <p>
@@ -71,9 +73,10 @@
           </p>
           <p>
             <label for="message">Message</label><br>
-            <textarea id="message" name="message"></textarea>
+            <textarea class="w3-input w3-border w3-round" id="message" name="message"></textarea>
           </p>
-          <input type="submit" name="submit" value="Submit Email"> <input type="reset" name="reset" value="Reset Form">
+          <input class="w3-button w3-green w3-hover-blue button_top_padding w3-border w3-round" type="submit" name="submit" value="Submit Email"> 
+          <input class="w3-button w3-green w3-hover-blue button_top_padding w3-border w3-round" type="reset" name="reset" value="Reset Form">
         </form>
         </fieldset>
         <br>

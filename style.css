@@ -9,7 +9,7 @@ header {
   padding: 50px;
 }
 
-table,
+/*table,
 td,
 th {
   border: double;
@@ -18,7 +18,7 @@ th {
   text-align: left;
   color: darkolivegreen
     }
-
+*/
 br {
   line-height: 150px;
     ”
@@ -64,7 +64,7 @@ h3 {
 h4 {
   font-family:  Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
-  color: brown;
+  color: whitesmoke;
 
 }
 
@@ -84,7 +84,7 @@ h6 {
 p {
   font-family:  Verdana, Tahoma, sans-serif;
   font-size: 16px;
-  color: darkolivegreen;
+  color: darkgreen;
 }
 
 /* CLASSES DEFINED*/
@@ -139,7 +139,9 @@ a:hover {
   margin-right: auto;
 }
 
-
+.button_top_padding {
+  margin-top: 20px;
+}
 
 /* Set nav to sticky or fixed */
 
@@ -170,4 +172,8 @@ a:hover {
 .topnav a.active {
   background-color: #04aa6d;
   color: white;
+}
+
+.gray-container{
+  color: #333;
 }
